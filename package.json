@@ -18,7 +18,7 @@
     ]
   },
   "dependencies": {
-    "bluebird": "^3.4.6",
+    "bluebird": "^3.4.6"
   },
   "xo": {
     "esnext": true,
