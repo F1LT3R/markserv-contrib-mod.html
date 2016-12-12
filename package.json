@@ -1,6 +1,6 @@
 {
   "name": "markserv-contrib-mod.html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serves HTML files.",
   "repository": "git@github.com:f1lt3r/markserv-contrib-mod.html",
   "main": "lib/mod.html.js",
