@@ -1,11 +1,11 @@
 {
   "name": "markserv-contrib-mod.html",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "description": "Serves HTML files.",
   "repository": "git@github.com:f1lt3r/markserv-contrib-mod.html",
   "main": "lib/mod.html.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "true"
   },
   "author": "f1lt3r",
   "license": "GPL-3.0",
@@ -13,17 +13,6 @@
     "esnext": true,
     "globals": [
       "it",
-      "describe",
-      "beforeEach"
-    ]
-  },
-  "dependencies": {
-    "bluebird": "^3.4.6"
-  },
-  "xo": {
-    "esnext": true,
-    "globals": [
-      "it" ,
       "describe",
       "beforeEach"
     ],
@@ -34,9 +23,17 @@
       {
         "files": "**/Markconf.*",
         "rules": {
-          "unicorn/filename-case": ["error", {"case": "pascalCase"}]
+          "unicorn/filename-case": [
+            "error",
+            {
+              "case": "pascalCase"
+            }
+          ]
         }
       }
     ]
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6"
   }
 }
